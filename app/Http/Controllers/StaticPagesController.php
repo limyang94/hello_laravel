@@ -90,7 +90,7 @@ class StaticPagesController extends Controller
     }
 
     public function help(){
-        return 'help';
+        return view("static_pages.help");
     }
 
     public function about(){
