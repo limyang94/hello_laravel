@@ -1,7 +1,7 @@
 <div class="col-md-12">
     <footer class="footer">
         <small>
-            Made with love by <a href="https://github.com/summerblue">Summer</a>
+            Made with love by <a href="https://github.com/xtomatoziyang">xtomatoziyang</a>
         </small>
         <nav>
             <ul>
