@@ -5,8 +5,8 @@
         </small>
         <nav>
             <ul>
-                <li><a href="/about">关于</a></li>
-                <li><a href="/help">帮助</a></li>
+                <li><a href="{{ route('about') }}">关于</a></li>
+                <li><a href="{{ route('help') }}">帮助</a></li>
             </ul>
         </nav>
     </footer>
