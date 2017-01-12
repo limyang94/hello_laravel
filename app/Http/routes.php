@@ -10,9 +10,24 @@
 | and give it the controller to call when that URI is requested.
 |
 */
+# 依赖注入
+//class Bar{}
+//class Foo{
+//    public  $bar;
+//    public function __construct(Bar $bar){
+//        $this->bar = $bar;
+//    }
+//}
+
+//App::bind('Foo',function(){
+//    return new Foo(new Bar);
+//});
+
 
 Route::get('/', function () {
-    return view('welcome');
+
+    dd(app('Billing')->charge());
+    // return view('welcome');
 });
 
 Route::get('/home','StaticPagesController@home');
