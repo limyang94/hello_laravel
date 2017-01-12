@@ -12,7 +12,8 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    app('charge')->test();
+    // return view('welcome');
 });
 
 Route::get('/home','StaticPagesController@home');
